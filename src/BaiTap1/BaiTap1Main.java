@@ -16,6 +16,13 @@ public class BaiTap1Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Context context = new Context();
+        context.setTinhToan(new Cong());
+        System.out.println(context.tinh(75,12));
+        
+        Context context1 = new Context();
+        context1.setTinhToan(new Tru());
+        System.out.println(context1.tinh(54,78));
     }
     
 }
